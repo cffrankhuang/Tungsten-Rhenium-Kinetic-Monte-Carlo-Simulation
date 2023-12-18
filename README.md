@@ -24,7 +24,7 @@ Set up parameters in "kmc_par.h", and then simply type "make". A executable file
 2. Defect jumping  
     * Vacancy: A vacancy jumps in 1st nearest neghbor. The jump rates are calculated using saddle-point model.
     * Self-interstitial atom(SIA): A SIA is assumed to move in 1-dimension; i.e., it sticks to move in one chosen 1st-nn direction, with certain probability to rotate.
-    * mixed interstitial atom: It jumps in 2nd-nn, as an effective jumping mechanism of "bridge-mechanism".
+    * Mixed interstitial atom: It jumps in 2nd-nn, as an effective jumping mechanism of "bridge-mechanism".
 
 
 ### Program structure ###
